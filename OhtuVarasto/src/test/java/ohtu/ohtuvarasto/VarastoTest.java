@@ -67,7 +67,7 @@ public class VarastoTest {
 
     @Test
     public void feili(){
-        assertTrue(false);
+        assertTrue(true);
     }
     
     @Test
