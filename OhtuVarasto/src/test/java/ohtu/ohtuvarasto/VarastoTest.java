@@ -66,6 +66,11 @@ public class VarastoTest {
     }
 
     @Test
+    public void feili(){
+        assertTrue(false);
+    }
+    
+    @Test
     public void konstr() {
         varasto = new Varasto(-1);
         varasto = new Varasto(0);
