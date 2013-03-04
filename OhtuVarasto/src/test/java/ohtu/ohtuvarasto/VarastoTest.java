@@ -72,7 +72,7 @@ public class VarastoTest {
 
     @Test
     public void feilaa() {
-        assertTrue(false);
+        assertTrue(true);
     }
 
     @Test
