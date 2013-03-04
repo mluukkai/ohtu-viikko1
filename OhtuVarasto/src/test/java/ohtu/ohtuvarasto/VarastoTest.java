@@ -66,18 +66,23 @@ public class VarastoTest {
     }
 
     @Test
-    public void feili(){
+    public void futaa() {
         assertTrue(true);
     }
-    
+
+    @Test
+    public void feilaa() {
+        assertTrue(false);
+    }
+
     @Test
     public void konstr() {
         varasto = new Varasto(-1);
         varasto = new Varasto(0);
-        varasto = new Varasto(1,1);
-        varasto = new Varasto(1,2);
-        varasto = new Varasto(-1,2);
-        varasto = new Varasto(-1,-1);
+        varasto = new Varasto(1, 1);
+        varasto = new Varasto(1, 2);
+        varasto = new Varasto(-1, 2);
+        varasto = new Varasto(-1, -1);
         varasto.toString();
     }
 }
